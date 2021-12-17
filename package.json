@@ -1,0 +1,35 @@
+{
+  "name": "js-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production backend/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anakloss/js-fullstack.git"
+  },
+  "keywords": [],
+  "author": "Ana Kloss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anakloss/js-fullstack/issues"
+  },
+  "homepage": "https://github.com/anakloss/js-fullstack#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "fs-extra": "^10.0.0",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

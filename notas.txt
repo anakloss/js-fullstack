@@ -1,0 +1,3 @@
+
+# ===== DATOS ENV =====
+MONGODB_URI=mongodb://localhost/booksdb
