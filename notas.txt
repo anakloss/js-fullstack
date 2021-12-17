@@ -1,3 +1,9 @@
+# ===== INSTALL =====
+
+* Frontend:
+npm i webpack webpack-cli html-webpack-plugin css-loader style-loader mini-css-extract-plugin webpack-dev-server
+ timeago.js -D
+
 
 # ===== DATOS ENV =====
 MONGODB_URI=mongodb://localhost/booksdb
