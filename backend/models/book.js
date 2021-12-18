@@ -16,12 +16,12 @@ const BookSchema = new Schema({
   },
   imagePath: {
     type: String,
-    // required: true
+    required: false  // true
   },
   created_at: {
     type: Date,
     default: Date.now
   }
-})
+});
 
 module.exports = mongoose.model('book', BookSchema);
