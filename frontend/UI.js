@@ -57,7 +57,7 @@ class UI {
     container.insertBefore(div, bookForm);
 
     setTimeout(() => {
-      document.querySelector('.message').remove();
+      document.querySelector('.alert').remove();
     }, secToRemove);
   }
 
