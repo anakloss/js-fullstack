@@ -1,0 +1,2 @@
+===== INSTALL =====
+npm i express sequelize sqlite3 nodemon consign

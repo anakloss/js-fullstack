@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-sqlite3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --exec node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anakloss/nodejs-sqlite3.git"
+  },
+  "keywords": [],
+  "author": "Ana Kloss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anakloss/nodejs-sqlite3/issues"
+  },
+  "homepage": "https://github.com/anakloss/nodejs-sqlite3#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.0-beta.3",
+    "sqlite3": "^5.0.2"
+  }
+}
